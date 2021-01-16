@@ -1,0 +1,13 @@
+node_modules
+mysql
+vendor
+
+logs
+*.log
+npm-debug.log*
+
+.vscode
+nginx/
+# SQL Server files
+*.mdf
+*.ldf
