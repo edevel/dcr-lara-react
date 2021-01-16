@@ -12797,8 +12797,8 @@ var SingleBody = function SingleBody(props) {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
             className: "lg-price",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-              children: [lsSetting.base_price, "\u20AC "]
-            }), lsSetting.price, "\u20AC"]
+              children: [lsSetting.price, "\u20AC "]
+            }), lsSetting.base_price, "\u20AC"]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
             className: "description",
             dangerouslySetInnerHTML: {

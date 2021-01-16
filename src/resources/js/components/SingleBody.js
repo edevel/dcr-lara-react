@@ -24,8 +24,8 @@ const SingleBody = (props) => {
                         <div className="sectionTitle pl-3">
                             <h2>{lsSetting.name}</h2>
                         </div>
-                        <h3 className="lg-price"><span>{lsSetting.base_price}&euro; </span>
-                        {lsSetting.price}&euro;</h3>
+                        <h3 className="lg-price"><span>{lsSetting.price}&euro; </span>
+                        {lsSetting.base_price}&euro;</h3>
                         <div className="description" dangerouslySetInnerHTML={{
                             __html: description
                         }}>

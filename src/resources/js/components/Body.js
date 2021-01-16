@@ -26,6 +26,7 @@ const Body = (props) => {
         }
       }
     const clearMatches = (e) =>{
+        e.stopPropagation();
         e.currentTarget.value = '';
     }
     const handleProductClick = (e, product) =>{
