@@ -119,7 +119,7 @@ const Body = (props) => {
                         </a>
                     </div>
                     {Object.keys(props.currentlyViewedList).map( key => (
-                        <div className="col-3 cardLame mt-1" key={'v'+key}>
+                        <div className="col-lg-3 cardLame mt-1" key={'v'+key}>
                             <div className="row justify-content-left text-left" >
                                 <div className="col-4">
                                     <a href={'/product/'+props.currentlyViewedList[key].slug}

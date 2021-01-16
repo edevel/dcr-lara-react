@@ -17,10 +17,10 @@ const SingleBody = (props) => {
         <div className="body">
             <div className="container">
                 <div className="row jusify-content-left text-left">
-                    <div className="col-5">
+                    <div className="col-lg-5">
                         <img className="img-fluid" alt="alt" src="https://placehold.it/1000x1000"/>
                     </div>
-                    <div className="col-7">
+                    <div className="col-lg-7">
                         <div className="sectionTitle pl-3">
                             <h2>{lsSetting.name}</h2>
                         </div>
